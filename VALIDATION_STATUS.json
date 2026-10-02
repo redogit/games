@@ -1,0 +1,155 @@
+{
+  "schema": "standalone-export-status/v1",
+  "workspace": "games",
+  "status": "validated-local-export-with-declared-limitations",
+  "source_bytes_and_modes": "verified against original Git blobs and SHA-256; original checkouts untouched",
+  "historical_scope_files": 222,
+  "dependency_files": 74,
+  "totals": {
+    "passed": 36,
+    "skipped": 0,
+    "additional_successful_checks": 0
+  },
+  "checks": [
+    {
+      "group": "games",
+      "check": "minigx",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "projects/games/RMAOS MiniGX/toolchain",
+        "-p",
+        "test_*.py"
+      ],
+      "environment": {},
+      "exit": 0,
+      "summary": [
+        "Ran 14 tests in 0.895s",
+        "OK"
+      ]
+    },
+    {
+      "group": "games",
+      "check": "decision-field-mmorpg",
+      "command": [
+        "node",
+        "--test",
+        "projects/games/Decision Field MMORPG/tests/core.test.mjs",
+        "projects/games/Decision Field MMORPG/tests/rmao-world.test.mjs"
+      ],
+      "environment": {},
+      "exit": 0,
+      "summary": [
+        "PASS Decision Field core",
+        "PASS RMAO world seed: 3D chunk keys, arbitrary arms, immutable detachment consequences, authority ceiling",
+        "\u2139 tests 2",
+        "\u2139 pass 2",
+        "\u2139 fail 0",
+        "\u2139 skipped 0"
+      ]
+    },
+    {
+      "group": "games",
+      "check": "play",
+      "command": [
+        "node",
+        "--test",
+        "play/explorer-world/progress-test.mjs",
+        "play/mmo-world/forge/test.mjs",
+        "play/mmo-world/plugin-contract-parity.test.mjs",
+        "play/mmo-world/protocol-contract-parity.test.mjs",
+        "play/mmo-world/test.mjs",
+        "play/mmo-world/timing-runtime.test.mjs",
+        "play/mmo/simple/ecs.test.mjs",
+        "play/mmo/simple/renderer-society-comparison.test.mjs",
+        "play/mmo/simple/renderer-society-metamorphic.test.mjs",
+        "play/mmo/simple/renderer-society.test.mjs",
+        "play/mmo/simple/test.mjs",
+        "play/mmo/simple/visual-carrier-v2.test.mjs",
+        "play/mmo/test-plugins.mjs",
+        "play/mmo/test-reality.mjs",
+        "play/mmo/test-rmao.mjs",
+        "play/mmo/test-save.mjs",
+        "play/musilanguage/music64-test.mjs",
+        "play/musilanguage/style-test.mjs",
+        "play/reference-integrity.test.mjs",
+        "play/test.mjs"
+      ],
+      "environment": {},
+      "exit": 0,
+      "summary": [
+        "PASS visual carrier v2: Mercer 3-perspective deterministic plan, recipe-content binding, domain-separated seeds, immutable ECS input, sealed provenance boundary",
+        "PASS MMO plug-ins: validation, bounded rewards, local install/list/remove/export, unknown authority fields stripped",
+        "PASS MMO reality canon: current-state boundary, grounded world, astronomy boundary, Forge generation, six-game Grounded Starter Pack including maker + Fuzzball, machine/human linkages, main-MMO plug-in discovery, portable save boundary, untimed Redline route, registry and evidence boundaries",
+        "PASS RMAO successor contract: 3D target, roguelike scopes, Dynamic RMAL characters, privacy, authority and claim ceilings",
+        "PASS MMO save: validated portable local state, explicit storage, import/export, bounds and authority-field stripping",
+        "PASS reference integrity: bounded resolution, static historical aliases, ambiguity refusal, unsafe-scope refusal, and Musilanguage one-hop references",
+        "PASS NEON//VEIL release catalog integrity",
+        "PASS playground: eight registered public projects including Explorer World and the grounded MMO successor; Unicode, provenance checkpoints, exact text differences, original recovery, geometry, voice/music resources, mnemonic claim boundaries, and deterministic game rules.",
+        "\u2139 tests 20",
+        "\u2139 pass 20",
+        "\u2139 fail 0",
+        "\u2139 skipped 0"
+      ]
+    }
+  ],
+  "earlier_failed_checks": [
+    {
+      "check": "play",
+      "exit": 1,
+      "timeout_seconds": null,
+      "summary": [
+        "PASS MMO World beta: simplified Explorer shard shell, explicit local checkpoint controls, bounded protocols, Bluetooth gesture, deterministic adjective varieties, and strict data-only Arcade Forge.",
+        "PASS timing runtime: source wait range, false start, monotonic reaction measurement, practice signal, cancellation.",
+        "FAIL MMO Chrome: spawn google-chrome ENOENT",
+        "PASS simple MMO world loop: 8 places each have context + activities; 12 activities; place-aware play; bounded save; non-punitive failure",
+        "PASS MMO plug-ins: validation, bounded rewards, local install/list/remove/export, unknown authority fields stripped",
+        "PASS MMO reality canon: current-state boundary, grounded world, astronomy boundary, Forge generation, six-game Grounded Starter Pack including maker + Fuzzball, machine/human linkages, main-MMO plug-in discovery, portable save boundary, untimed Redline route, registry and evidence boundaries",
+        "PASS RMAO successor contract: 3D target, roguelike scopes, Dynamic RMAL characters, privacy, authority and claim ceilings",
+        "PASS MMO save: validated portable local state, explicit storage, import/export, bounds and authority-field stripping",
+        "\u2139 tests 25",
+        "\u2139 pass 13",
+        "\u2139 fail 12",
+        "\u2139 skipped 0"
+      ]
+    },
+    {
+      "check": "play",
+      "exit": 1,
+      "timeout_seconds": null,
+      "summary": [
+        "PASS renderer society metamorphic verification: Mercer three-perspective identity separation, deterministic execution, stage\u2192pipeline\u2192registry digest propagation, immutable carrier/ECS authority",
+        "PASS renderer society: deterministic Mercer routing, bounded fan-out, isolated complete/pipeline execution provenance, immutable ECS input, explicit failure evidence, no unearned trust promotion",
+        "PASS simple MMO world loop: 8 places each have context + activities; 12 activities; place-aware play; bounded save; non-punitive failure",
+        "PASS visual carrier v2: Mercer 3-perspective deterministic plan, recipe-content binding, domain-separated seeds, immutable ECS input, sealed provenance boundary",
+        "PASS MMO plug-ins: validation, bounded rewards, local install/list/remove/export, unknown authority fields stripped",
+        "PASS MMO reality canon: current-state boundary, grounded world, astronomy boundary, Forge generation, six-game Grounded Starter Pack including maker + Fuzzball, machine/human linkages, main-MMO plug-in discovery, portable save boundary, untimed Redline route, registry and evidence boundaries",
+        "PASS RMAO successor contract: 3D target, roguelike scopes, Dynamic RMAL characters, privacy, authority and claim ceilings",
+        "PASS MMO save: validated portable local state, explicit storage, import/export, bounds and authority-field stripping",
+        "\u2139 tests 20",
+        "\u2139 pass 18",
+        "\u2139 fail 2",
+        "\u2139 skipped 0"
+      ]
+    }
+  ],
+  "root_validation_runner": "exercised successfully",
+  "limitations": [
+    "Chrome/Chromium browser checks could not run because google-chrome is absent.",
+    "Full Windows SDK, Android and native LLVM/MLIR builds were not tested.",
+    "All fifteen original exclusions remain absent; excluded test/projection tools are not claimed as validated.",
+    "Original scope status and original test reports are historical; this is a new export validation, not a replay claim for the old 740-test aggregate.",
+    "Original commits remain intact in the source repositories; unrelated full history is not imported into these scoped exports.",
+    "No remote repository creation, push, Pages publication or hosted deployment was performed."
+  ],
+  "content_scan": {
+    "unique_source_blobs": 1722,
+    "archive_members": 1067,
+    "credential_pattern_findings": 0,
+    "structured_private_origin_true_count": 0,
+    "scope": "Bounded credential and explicit private-origin-marker scan; not a universal personal-data classifier."
+  }
+}

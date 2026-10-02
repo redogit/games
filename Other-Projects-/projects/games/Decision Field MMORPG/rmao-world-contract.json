@@ -1,0 +1,86 @@
+{
+  "schema": "rmao.world-contract/v1",
+  "worldId": "rmao-world",
+  "displayName": "Ripping Many Arms Off",
+  "targetGenre": [
+    "massive-3d-world",
+    "roguelike",
+    "mmorpg"
+  ],
+  "currentRenderer": {
+    "dimensions": 2,
+    "status": "transition-prototype",
+    "massive3DClaim": false
+  },
+  "spatial": {
+    "dimensions": 3,
+    "chunkSizeMeters": 256,
+    "hierarchy": [
+      "world",
+      "region",
+      "sector",
+      "chunk",
+      "cell",
+      "entity"
+    ],
+    "deterministicBase": true
+  },
+  "limbGraph": {
+    "arbitraryArmCount": true,
+    "maxPrototypeArmCount": 128,
+    "states": [
+      "attached",
+      "damaged",
+      "disabled",
+      "detached"
+    ],
+    "nonGraphicParityRequired": true
+  },
+  "roguelike": {
+    "runId": true,
+    "runSeed": true,
+    "persistenceScopes": [
+      "run",
+      "player",
+      "world",
+      "ephemeral"
+    ]
+  },
+  "authority": {
+    "serverRequiredForMMORPGClaim": true,
+    "clientMayAuthoritativelyDetachSharedLimbs": false
+  },
+  "invariants": [
+    "CURRENT_2D_PROTOTYPE != MASSIVE_3D_WORLD",
+    "LOCAL_SHARD_SIMULATION != SERVER_AUTHORITY",
+    "GAME_LIMB_GRAPH != REAL_ANATOMY",
+    "RUN_RESET != HISTORY_ERASURE",
+    "SUPER_SERAPHINE_CHARACTER != PRIVATE_PERSON",
+    "SPROUTLING != REAL_CHILD",
+    "TRICKSTER_ROLE != ADMIN_AUTHORITY",
+    "PRESENTATION_SPOOF != SERVER_STATE",
+    "CHAOS != HISTORY_ERASURE"
+  ],
+  "dynamicRmal": {
+    "version": "0.1",
+    "path": "DYNAMIC_RMAL_CHARACTERS.rmal",
+    "status": "design-contract-machine-checkable",
+    "implementationAuthority": "local"
+  },
+  "characters": {
+    "superSeraphine": {
+      "id": "super-seraphine",
+      "class": "magic-trickster",
+      "anyFictionalForm": true,
+      "anyNonAuthorityRole": true,
+      "authorityCeiling": "game-entity",
+      "privatePerson": false,
+      "familyProxy": false
+    },
+    "sproutling": {
+      "class": "fictional-growth-form",
+      "realAgeMapping": false,
+      "realFamilyLink": false
+    }
+  }
+}

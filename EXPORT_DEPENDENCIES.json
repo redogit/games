@@ -1,0 +1,675 @@
+{
+  "schema": "scoped-repository-dependencies/v1",
+  "workspace": "games",
+  "policy": "Dependencies retain source paths, bytes, modes and identity. Duplication does not transfer ownership.",
+  "files": [
+    {
+      "path": "conscience64/404.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "7bac2fa6091f1a1ff1b88fc2fa9f33c3974009ac",
+      "mode": "100644",
+      "sha256": "4a66c458452452d19355f3a56f84642c50ce54b86cb833d4bf5e5245d3e4da00",
+      "reason": "Play route/reference checks require the root reference page, API guide and alias generator."
+    },
+    {
+      "path": "conscience64/API.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "8449f37e1a2fd1b4eb04207ebd6db3ecad0c4caa",
+      "mode": "100644",
+      "sha256": "91b0fe4eba112e69abd7e0f8226f8c2e778eea8dac9211d1720098a2e046eccb",
+      "reason": "Play route/reference checks require the root reference page, API guide and alias generator."
+    },
+    {
+      "path": "conscience64/tools/generate-reference-aliases.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "0e8576b22c4e30cf0c8cdc57d6acb379bf36af8a",
+      "mode": "100644",
+      "sha256": "8ccbcbb0ae056de9353a753c7982a33eb997519d022593570697f5b5630bffce",
+      "reason": "Play route/reference checks require the root reference page, API guide and alias generator."
+    },
+    {
+      "path": "conscience64/COMMERCIAL_ACCESS_POLICY.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "c9a7bf9085173f85a42f8a4812f99bbdef24fc0b",
+      "mode": "100644",
+      "sha256": "f15eeef67cc0f9069a0a6cd3fb0f219ac742cb1d41171cb18fd4f43940d70db2",
+      "reason": "Play route/reference checks require the root reference page, API guide and alias generator."
+    },
+    {
+      "path": "Other-Projects-/COMMERCIAL_ACCESS_POLICY.md",
+      "source_repository": "Other-Projects-",
+      "source_revision": "369683cc173b8887361aec7a1e3c23016f229578",
+      "git_blob": "c9a7bf9085173f85a42f8a4812f99bbdef24fc0b",
+      "mode": "100644",
+      "sha256": "f15eeef67cc0f9069a0a6cd3fb0f219ac742cb1d41171cb18fd4f43940d70db2",
+      "reason": "Preserve existing source reuse policy; no new license grant or ownership merger."
+    },
+    {
+      "path": "conscience64/tools/private-origin-boundary.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "bae3f2182e1a93cd3ddd249af374b2b20b24723c",
+      "mode": "100644",
+      "sha256": "d502b464f6a665eead922553a3a431096c7055cad82e3ae88823cc9b8ab08751",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/about/README.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "beb44aeb7ce18387f0f851f679c32371469eba3e",
+      "mode": "100644",
+      "sha256": "42e1a5f7dcdb30a4e357ced38e5b5a225e0682faaf79813170a54fe071637dd4",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/about/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "52c7cf57edfb132dd86e834cc0716debeba188b2",
+      "mode": "100644",
+      "sha256": "0aabdaf75f08336324772e84a9425ddedb00776baee9dc582ffeabe74a20d3ff",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/about/page-checks.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "7bcc7250763240b9c33384a24e280dc4e51c0703",
+      "mode": "100644",
+      "sha256": "e90ef00c2e54ffc17674f4652ce8440d444b041eacc37e48902ff15361580f59",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/about/update-record.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "fe2ae3ec3518d40a1ba85d8ee695b747c52cdd1a",
+      "mode": "100644",
+      "sha256": "ebdbbeadfef2c339f495e8da9574f79ccdcf81d83f9938df7023a8fbf1016524",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/WORK_INVENTORY.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "360363cb73376d546bdadd2b0111224858f73808",
+      "mode": "100644",
+      "sha256": "feff42c9c7048830e3cdaafcb3e9abe0bd5bee8410dd09d048575d46408055e5",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/browser-test.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "03e2ac37e0f7e8988f932db2c95f59c4e9ac0013",
+      "mode": "100644",
+      "sha256": "c25815e11c5bc5106d1054f79ce1373775966444028772d87476f146b8275d39",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/context-horizon.css",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "84017ecc3e30daeb2bf28aa091f34067a3f4ee29",
+      "mode": "100644",
+      "sha256": "aa91a6faa0f34fcbe31c64fcf3eea6d78f4089e36c01d494c64d9f0fdbf2c746",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/cross-chat-context-seeds.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "24e4f1d2f90b5b7dc48b2668e9a3d764f6fdff86",
+      "mode": "100644",
+      "sha256": "1e93a0abe325d006e049e0a83f5dad64fb3e5d6c5494165ac9d2fabdb6a93925",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/current-chat-artifact-seeds.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "b83cc629c6e143cd866d6cf56fb627b9c7af9053",
+      "mode": "100644",
+      "sha256": "19c0b82c50419b8d09c4e9558a07522c97ac048ccc53d62afd205a204bb998b0",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/current-chat-artifacts.test.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "82fb419056ba1287dd4ff225904db144cf84388d",
+      "mode": "100644",
+      "sha256": "e37e35e5efdce4f43bf84fce4c37f11c38cfeee1fd87915d76a57a11ecf0784b",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/engine.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "6ee2816acd91e8facf7d1b1cb78da93df298a4d2",
+      "mode": "100644",
+      "sha256": "98e0e3492ec2398aaa02e7b27dc580e4e66e77994e9cacba5ed50c297c073ad7",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/engine.test.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "51a6802ff0a8d6a58d9e7ec3e25ce054fd2abf72",
+      "mode": "100644",
+      "sha256": "62d4d543abac852297a87a9e84724735f683b0b7feb36d26aaf8f1f85e68818f",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/external-public-sources.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "019b726e982d879f4bcbac56b7115ebb69f20c34",
+      "mode": "100644",
+      "sha256": "7139cf698eb84ccdb25acd040052c0ab149ce0b1f9c7e02e9d5b6538d18f50bc",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/historical-context-seeds.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "c9b40d0b48fa66532a68b936429b533810c52893",
+      "mode": "100644",
+      "sha256": "92eae0944107055db4fa3afd747d65850a71e98e203f09ae5e9e8ba7e20cc898",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "03feeca34d5fa5f15929beba73cd7100b53a672e",
+      "mode": "100644",
+      "sha256": "6b24ac34373a1838e35a92564cd2395500c17308ded3c8cecfc515fe45bdd227",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/library-discovery-seeds.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "49562b0368bc21d3b45a7b648f98a59115da26af",
+      "mode": "100644",
+      "sha256": "22ef82f4529a09f1808683373246ba9de0ee797829eaf702a05158b5b4adf216",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/library-work-expansion.test.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "5a46ca7eae81d3e6fe020b883ba8631cf8d99a75",
+      "mode": "100644",
+      "sha256": "fa0944a68e373665811ce734a35c6f4dfa8755371827bbbcfca52ef14de24c55",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/named-architecture-expansion.test.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "b184928050044e7da08c581cab2e1bf94d5579f8",
+      "mode": "100644",
+      "sha256": "71abdac1134d13e28acfa7d640be00b9b5a4292d1f420dc1e0e1f327fe4d6e68",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/named-architecture-seeds.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "6f4dd26b3040b19690bdafef57485a8fca3f61eb",
+      "mode": "100644",
+      "sha256": "b4b30ce8661f2549fc5a2197c81e084e26cc8f68a1f14f2e2c9d61ea5e2f1fb6",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/page-adapter.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "93c04a45ad5baf44bbe26adbdba10995b8965487",
+      "mode": "100644",
+      "sha256": "37f8543adbac51d48151302e876fde36163dc4e50a25caa6a1d6f91272efa52e",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/presenter.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "6c5d0f6976974caeb2bf6b9f950758ea3415d1fd",
+      "mode": "100644",
+      "sha256": "7d597ce2d629fc1aa74e39589febded43291b127db37d9237f0dcc24d343cd69",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/preservation-seeds.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "5b70edbe3ef8cbcd10d2382327146f064987692c",
+      "mode": "100644",
+      "sha256": "997551501337cd631e9f36d399cd035f87ccaed86bac93173a7bc38505c21c50",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/questions.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "657dad239c0b47b2b8736851f8c562a5ffa79775",
+      "mode": "100644",
+      "sha256": "41adfd3d205d6caeadf6bb36c99fdc5471a0da56d73c57a5f57bfa140bae8717",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/questions.test.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "9398a348dca7907dc6a68277a9f29f47f74df8f1",
+      "mode": "100644",
+      "sha256": "a9e65329c1926a64849406dc3c89d6930b6e928c95823f9de62541961b82e420",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/repair-successor-seeds.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "7b8530b0f4ff47972b20b5304bcab21550173f8f",
+      "mode": "100644",
+      "sha256": "bd5739746dc4f809980ae99e3d75843008f4578af7a409df8fa6fb3ec80a35f2",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/repair-successors.test.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "e7be15489609e7f067b8714a9ea0c85be3f656bc",
+      "mode": "100644",
+      "sha256": "ae4bf845aff3e08101de28a6e6c0d301d41f74db23abf23a6c4b6782fc20d185",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/route-registry.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "1ca67cb4c066400b44fd07d0a0e7beff9a83d367",
+      "mode": "100644",
+      "sha256": "9bfe6e842442e92e93c9b5cceb73e3ddfe4e01ffab32b48c6a495dd4e738ec8d",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/route-registry.test.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "cd4b512014b37954d417a732d3a35531cb167399",
+      "mode": "100644",
+      "sha256": "3cb7d8320b84449c6685abbeed1427d7de6fed6254853450f2eef27fa79c6fe3",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/work-inventory.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "b950e804bedfc854f6f6908b3c5183d3032187b4",
+      "mode": "100644",
+      "sha256": "39b85774048be68a802e0e308829eca840f86e10c907aa465d34cfe992c813d0",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/navigation/context-horizon/work-inventory.test.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "6eebca7fb2651bf89f7954ab103f091399b2172a",
+      "mode": "100644",
+      "sha256": "9dcac9a84d37d7dc3f3ef8371a3ebc228063508032067cb8e4c7c3ecbb1009c5",
+      "reason": "Observed Play tests/runtime imports and Musilanguage navigation reference this shared platform dependency."
+    },
+    {
+      "path": "conscience64/research/projects/projects.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "24ecb718a9a79d4abbd724787a756f5bdd734049",
+      "mode": "100644",
+      "sha256": "4269e1d4e028849975b6ecbe2d3a2a16d8716e0e78873a7cfbe54c9afab4f4c1",
+      "reason": "Context Horizon loader reads the research project registry alongside the game registry."
+    },
+    {
+      "path": "conscience64/history/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "b70fbe11c35c181799b117f95defe13de0b6a12a",
+      "mode": "100644",
+      "sha256": "653dcf85a9e181be7de7547bb73000606a5e42a874ab5ed1ca0d553cc956ddbc",
+      "reason": "Literal local asset/module dependency '../history/#knowledge' in conscience64/about/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "10b54800e1e407d4d74f9448c6446a0114c4bb4a",
+      "mode": "100644",
+      "sha256": "598947fa1f5c71fddc5c4c29935de48729c10a10dbb862c23b57469620cdc3b1",
+      "reason": "Literal local asset/module dependency '../../research/projects/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/public-updates/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "7edc3470e689416d53eb6f9620d71ce728e7f3fd",
+      "mode": "100644",
+      "sha256": "e5b058a9863a95ad7e6979f0e58fd9cbab9f04fedd00ed861ae35ec0b627459d",
+      "reason": "Literal local asset/module dependency '../../research/projects/public-updates/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/analytics/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "7015c8b70a57bbb97d012c2df870a2a1299855d0",
+      "mode": "100644",
+      "sha256": "4ed5c91768bbabda8d2acb7cc826b5979ec3fb410f044b3bd98f275c9c62d266",
+      "reason": "Literal local asset/module dependency '../../analytics/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "a3fa39e9958201230bb7ebbe1b2ec636836f9541",
+      "mode": "100644",
+      "sha256": "2eafb385f64a95d8d27a6568e7481ad3acb4cfc6d9046e9d38b936185a1bc9f1",
+      "reason": "Literal local asset/module dependency '../../coordinate-space/' in conscience64/navigation/context-horizon/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/mmo-world-beta.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "7498ce28d0b7da7d46e955cbe345e5dd26fbb91f",
+      "mode": "100644",
+      "sha256": "ed8893b892020169f59b428d251495acd6e72db4f159ca3ad500f533224526f9",
+      "reason": "Literal local asset/module dependency '../../research/projects/mmo-world-beta.md' in conscience64/play/mmo-world/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/voice-anywhere.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "70d7695420540a9e39ca8f77a57be64c81b2c943",
+      "mode": "100644",
+      "sha256": "1d77e7d73ff4dfbb8ae709aedd470f8ef3f602cd50ee54b01adc706dea5609de",
+      "reason": "Literal local asset/module dependency '../../voice-anywhere.js' in conscience64/play/musilanguage/word-forge.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research-song.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "09858d55b6388caf37171d2c11542c462eba7e99",
+      "mode": "100644",
+      "sha256": "24d91c2c4c1339583af3688e14881c699f147b0192a3f5c03b28476202521659",
+      "reason": "Literal local asset/module dependency '../../research-song.js' in conscience64/play/assets/core.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/sha256.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "5e2d9667d7c2a44c5602710fd2a3350cfe529202",
+      "mode": "100644",
+      "sha256": "29179f0f61206751a89301ab28cb6ec618092fcb620b7c5509fc43c5be153390",
+      "reason": "Literal local asset/module dependency 'sha256.js' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/codec.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "a2cf33be1a91880834c9e8566b9fed21a7dfcd72",
+      "mode": "100644",
+      "sha256": "bddd295dbe53bb275642fc3f6259a1694f37808f2e97f96c5bd6689a9ac4ef01",
+      "reason": "Literal local asset/module dependency 'codec.js' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/source_file.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "55eb008b2610a4721b812b7246eca1274fbfa49c",
+      "mode": "100644",
+      "sha256": "0861a427406b6d15939cd8ee5e61d6d0e99cf25ad5463946d5a225e82a8e7581",
+      "reason": "Literal local asset/module dependency 'source_file.js' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/locales.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "59aa42d2b1bbbdbc4d563a14ef4989652aec484a",
+      "mode": "100644",
+      "sha256": "f80e9380bfee4308480b94661e419c6013698a55117e7201f8b331c7c23538ff",
+      "reason": "Literal local asset/module dependency 'locales.js' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/i18n.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "9934b65a06b4811267aaf75fb5d22a55d617d2c8",
+      "mode": "100644",
+      "sha256": "ba415ee059c445fceb1a93b66666482a3952ceebf7c6019ec7b68701d68ac9b9",
+      "reason": "Literal local asset/module dependency 'i18n.js' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/ui.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "f2bbd19bf64405cc98ced22ddd77d9085ecd509c",
+      "mode": "100644",
+      "sha256": "5b52e3f317bd9706ea1b50a60ffe10109c73ea8192813c8c4a5d3e33cecfa96f",
+      "reason": "Literal local asset/module dependency 'ui.js' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/README.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "07a0bc7de5ba7fef1d0a68f3f39eab765148b042",
+      "mode": "100644",
+      "sha256": "b0fca49d61b0a2702dc8a4a04685c00a7b2b23db65fe987a4640909a9628dc4b",
+      "reason": "Literal local asset/module dependency 'README.md' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/CULTURE_TIME_CONTRACT.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "c070c88d666ec0dffcd4aa086e83c45e026e52ee",
+      "mode": "100644",
+      "sha256": "adf8492ee8fa5107be5582b9a962bcf2c1d3b0ea56cf92b433f255b07be75e16",
+      "reason": "Literal local asset/module dependency 'CULTURE_TIME_CONTRACT.md' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/coordinate-space/LICENSE",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "3a0e797f03d00433ef06d3216d16f5d2f30d45ff",
+      "mode": "100644",
+      "sha256": "37ba7f81fe8880b9640b9e92218891acb1636525e61fc6ed67f59b971949a90b",
+      "reason": "Literal local asset/module dependency 'LICENSE' in conscience64/coordinate-space/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/history/RESTORE.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "c0f11e5ad08b5863bd3dd76291d9867cfeb9bdbb",
+      "mode": "100644",
+      "sha256": "a0133c1180b3c5404cadb109fac84de5b9ec5ec9834129d11357b865a86e8c33",
+      "reason": "Literal local asset/module dependency 'RESTORE.md#ideas-methods-and-practical-work' in conscience64/history/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/history/app.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "688be1e67c97472f3ad46951e98ba8b519fb0aac",
+      "mode": "100644",
+      "sha256": "81e522e56eb8366f8cfae108f72d5689e61ea41539ad12dee5d38c6ef68f7e37",
+      "reason": "Literal local asset/module dependency 'app.mjs' in conscience64/history/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/history/knowledge.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "97735ed4f2b3e5b5ab65e1703cecec14538a79ea",
+      "mode": "100644",
+      "sha256": "af7fdea348a2a445e84588cb7ea9bea005e3e326a577c3d1472c1434728bb641",
+      "reason": "Literal local asset/module dependency 'knowledge.mjs' in conscience64/history/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/analytics/styles.css",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "7c3dfd935437e5c705e05ed14bf5ea2beea6aadc",
+      "mode": "100644",
+      "sha256": "c8f7b0f3a4463597be25e0fe56ad547d152b5734392734a0cb0471f04adf8ba8",
+      "reason": "Literal local asset/module dependency 'styles.css' in conscience64/analytics/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/research-analytics.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "97ac41f4aee70fd2595dcbb154fb036cc24a752a",
+      "mode": "100644",
+      "sha256": "d2ef38cb9f0e7c7321584ca683f411d49eb5efe39d6544adcdae0b3003711eb8",
+      "reason": "Literal local asset/module dependency '../research/projects/research-analytics.md' in conscience64/analytics/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/CURRENT.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "116ed43d833489ae9cc07adaaf7b1fd2c2227d89",
+      "mode": "100644",
+      "sha256": "43bf2275bdcaae305d6ea5c4316d5e9c4ec1a6ecdf6229b7c460f2a2090b53dc",
+      "reason": "Literal local asset/module dependency '../research/projects/CURRENT.json' in conscience64/analytics/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/analytics/dashboard.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "7c20276c5d7b0fa02c63c21233f4f5fe04fb4e2b",
+      "mode": "100644",
+      "sha256": "4909fc92c8d63c19a6d29aa2e26081ac152e2e6395650a1d88ad5c4869b231bb",
+      "reason": "Literal local asset/module dependency 'dashboard.mjs' in conscience64/analytics/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/federation/s1-models/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "e445ac46f8fa49497ae9d0a333a0b15592a76939",
+      "mode": "100644",
+      "sha256": "6da55db8a08e2326bee8ceef920cf1049df3dbafa9201aeeecaea0bb93e9570a",
+      "reason": "Literal local asset/module dependency '../federation/s1-models/' in conscience64/research/projects/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/carrier-surface/index.html",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "66fca56c23a47806e8a9162ac0550ed2d43d426f",
+      "mode": "100644",
+      "sha256": "fee94465cc2cb7261b25a7abccfe52636105f8b3fbab2045a8dc861ab9e1bd19",
+      "reason": "Literal local asset/module dependency '../carrier-surface/' in conscience64/research/projects/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/radar/CONVERSATION_WIDE_RADAR_LOCALITY_PARITY_2026-09-20.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "fd7bc2a3cd509ca3ba047d42d2bab096d5049a85",
+      "mode": "100644",
+      "sha256": "5f2463a66fd52e91b3438670484e989483018ed95de2d2e1d6874dcdceca427b",
+      "reason": "Literal local asset/module dependency '../radar/CONVERSATION_WIDE_RADAR_LOCALITY_PARITY_2026-09-20.md' in conscience64/research/projects/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/public-updates/style.css",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "33e6f90386e1a66b3527118b26b45d0393ac6821",
+      "mode": "100644",
+      "sha256": "429950b822e74c8dfe56332434dc027e7fe95505028c1a24a9ed7fba3ab3401d",
+      "reason": "Literal local asset/module dependency './style.css' in conscience64/research/projects/public-updates/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/public-updates/PRIVATE_READER_BOUNDARY.md",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "252dc2d38bfca85d5927118f5705ba5f0673c63d",
+      "mode": "100644",
+      "sha256": "15a4e04e56114ee8ae3c4856fbeb20dfa1450b446bb23317d2a012b62c270779",
+      "reason": "Literal local asset/module dependency './PRIVATE_READER_BOUNDARY.md' in conscience64/research/projects/public-updates/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/public-updates/data/latest.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "26331dffe5016856e8c9522e50e3b11e8717eb72",
+      "mode": "100644",
+      "sha256": "ee0b993150096eed44ea70714a8e147b98bea665b3dd98c3b155b57f8498ac6a",
+      "reason": "Literal local asset/module dependency './data/latest.json' in conscience64/research/projects/public-updates/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/projects/public-updates/app.js",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "2693c6a5623dd5164a691f41c4b3dc2e148133f7",
+      "mode": "100644",
+      "sha256": "8ed62cdf3128d4bc0ae52acc060ff018a02890b7683fab0f0a24dcef79564421",
+      "reason": "Literal local asset/module dependency './app.js' in conscience64/research/projects/public-updates/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/history/knowledge-state.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "09eee61f6fe0211ae536c622e5e96de21b927519",
+      "mode": "100644",
+      "sha256": "8637802a1d37d93d0c7ca61a8533bb31378e3b37f74049fd1cb9a690e5d80520",
+      "reason": "Literal local asset/module dependency './knowledge-state.mjs' in conscience64/history/knowledge.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/history/state.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "825c7bd6f954234662252da4294c1a288fcce574",
+      "mode": "100644",
+      "sha256": "77a004821ee9d940abe2b637ebe75b91c4a1cb1cb9e696f3dec39099a486769d",
+      "reason": "Literal local asset/module dependency './state.mjs' in conscience64/history/app.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/history/versions.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "556da2127d47e4a4d9a817923fddc3a68a66a5c2",
+      "mode": "100644",
+      "sha256": "ca4346882ede7076567294871b835f48b28fc075f2856302725b4f04a9ad77ad",
+      "reason": "Literal local asset/module dependency './versions.json' in conscience64/history/app.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/analytics/event-contract.mjs",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "64353b406ce585b5d935ef4ba5401352152fc486",
+      "mode": "100644",
+      "sha256": "ac0ea3a0a3b83da42f969c77b5c6b48b685a85c019f6ae0d3528e060245e081d",
+      "reason": "Literal local asset/module dependency './event-contract.mjs' in conscience64/analytics/dashboard.mjs; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/carrier-surface.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "05e29d7e10caf55e06348bf8772f25a40618b605",
+      "mode": "100644",
+      "sha256": "3983a085637e6ed96762fd079161f92572913bcd34b9e10213c4be910f90fbba",
+      "reason": "Literal local asset/module dependency '../carrier-surface.json' in conscience64/research/carrier-surface/index.html; original source bytes retained."
+    },
+    {
+      "path": "conscience64/research/federation/s1-models.json",
+      "source_repository": "conscience64",
+      "source_revision": "e58fd1cf1958a3744ba840d82da753597cf0102d",
+      "git_blob": "049add6a7d7eb60acc0825978e5d231c6b914bf6",
+      "mode": "100644",
+      "sha256": "546407b1ca12e4ae68c84e4b77debe3cde876ef9a16401827f1c1e309025d2cd",
+      "reason": "Literal local asset/module dependency '../s1-models.json' in conscience64/research/federation/s1-models/index.html; original source bytes retained."
+    }
+  ],
+  "blocked": [],
+  "repairs": []
+}
