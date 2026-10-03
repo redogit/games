@@ -1,5 +1,7 @@
 # Games
 
+> **Public page:** https://redogit.github.io/games/ · **Main / About:** https://redogit.github.io/redogit/
+
 Existing game projects and their local tooling.
 
 This standalone export preserves original source paths and bytes. Necessary cross-project dependencies are copied with explicit provenance; ownership and historical evidence remain with their source projects.
